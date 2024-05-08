@@ -33,4 +33,17 @@ final class CollectionViewCell: UICollectionViewCell {
     func setTitle(_ title: String) {
         titleLabel.text = title
     }
+    
+    func changeFontToBold() {
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 22)
+    }
+    
+    func changeFontToRegular() {
+        titleLabel.font = UIFont.systemFont(ofSize: 17)
+    }
+    
+    func changeFontToItalic() {
+        titleLabel.font = UIFont.italicSystemFont(ofSize: 22)
+    }
+    
 }
