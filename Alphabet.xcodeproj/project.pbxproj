@@ -13,6 +13,7 @@
 		16AFE7BB2BEBD1C600F4FDFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AFE7BA2BEBD1C600F4FDFF /* Assets.xcassets */; };
 		16AFE7BE2BEBD1C600F4FDFF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 16AFE7BD2BEBD1C600F4FDFF /* Base */; };
 		16AFE7C62BEBD72300F4FDFF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AFE7C52BEBD72300F4FDFF /* CollectionViewCell.swift */; };
+		16AFE7C82BEBDA2600F4FDFF /* SupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AFE7C72BEBDA2600F4FDFF /* SupplementaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		16AFE7BD2BEBD1C600F4FDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16AFE7BF2BEBD1C600F4FDFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16AFE7C52BEBD72300F4FDFF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		16AFE7C72BEBDA2600F4FDFF /* SupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				16AFE7B12BEBD1C300F4FDFF /* AppDelegate.swift */,
 				16AFE7B32BEBD1C300F4FDFF /* SceneDelegate.swift */,
 				16AFE7B52BEBD1C300F4FDFF /* ViewController.swift */,
+				16AFE7C72BEBDA2600F4FDFF /* SupplementaryView.swift */,
 				16AFE7BA2BEBD1C600F4FDFF /* Assets.xcassets */,
 				16AFE7BC2BEBD1C600F4FDFF /* LaunchScreen.storyboard */,
 				16AFE7BF2BEBD1C600F4FDFF /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				16AFE7B62BEBD1C300F4FDFF /* ViewController.swift in Sources */,
 				16AFE7B22BEBD1C300F4FDFF /* AppDelegate.swift in Sources */,
+				16AFE7C82BEBDA2600F4FDFF /* SupplementaryView.swift in Sources */,
 				16AFE7C62BEBD72300F4FDFF /* CollectionViewCell.swift in Sources */,
 				16AFE7B42BEBD1C300F4FDFF /* SceneDelegate.swift in Sources */,
 			);
