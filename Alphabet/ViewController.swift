@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    private let letters = [
+                "а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к",
+                "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц",
+                "ч", "ш" , "щ", "ъ", "ы", "ь", "э", "ю", "я"
+            ]
+    
     private let collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout())
         collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: "cell")
@@ -45,15 +51,15 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 15
+        return letters.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? CollectionViewCell else {
             fatalError()
         }
-        cell.contentView.backgroundColor = .gray
-        cell.setTitle("A")
+        
+        cell.setTitle(letters[indexPath.row])
         return cell
     }
 }
